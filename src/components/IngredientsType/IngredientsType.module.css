@@ -1,0 +1,22 @@
+.ingredientsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 32px;
+    margin: 0 16px;
+}
+.ingredientsTypeContainer{
+    max-height: 912px;
+    overflow:auto;
+}
+
+.ingredientsTypeContainer::-webkit-scrollbar {
+    width: 12px;
+  }
+.ingredientsTypeContainer::-webkit-scrollbar-track {
+    background: #2F2F37;
+  }
+.ingredientsTypeContainer::-webkit-scrollbar-thumb {
+    background: #8585AD;
+    border: 3px solid #2F2F37;
+  } 

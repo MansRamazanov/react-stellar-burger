@@ -1,0 +1,30 @@
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    min-height: 88px;
+
+}
+
+.shell {
+    width: 100vw;
+    background-color: #1C1C21;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    max-height: 24px;
+}
+
+.nav_components {
+    display: flex;
+    
+}
+
+.logo {
+    margin: auto;
+}

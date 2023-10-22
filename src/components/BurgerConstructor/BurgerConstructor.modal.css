@@ -1,0 +1,10 @@
+.container {
+    max-width: 601px;
+    display: flex;
+    flexDirection: column;
+    gap: 10px;
+}
+
+.unlockIngredients {
+    overflow: scroll;
+}

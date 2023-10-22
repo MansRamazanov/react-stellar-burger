@@ -1,0 +1,28 @@
+.modal {
+    width: 720px;
+    height: 539px;
+    border-radius: 40px;
+    background-color: #131316;
+    position: fixed;
+    left: calc(50% - 360px);
+    top: calc(50% - 270px);
+    transform: scale(0);
+}
+
+.modalActive {
+    width: 720px;
+    height: 539px;
+    border-radius: 40px;
+    background-color: #131316;
+    position: fixed;
+    left: calc(50% - 360px);
+    top: calc(50% - 270px);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
